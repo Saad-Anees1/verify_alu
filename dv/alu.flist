@@ -1,5 +1,6 @@
-+incdir+/remote/usrhome/saadanees/muvm/ALU/dv
-/remote/usrhome/saadanees/muvm/ALU/dv/alu_types.sv
-/remote/usrhome/saadanees/muvm/ALU/dv/alu_pkg.sv
-/remote/usrhome/saadanees/muvm/ALU/dv/alu_interface.sv
++incdir+../dv
++incdir+../seq_lib
+../dv/alu_types.sv
+../dv/alu_pkg.sv
+../dv/alu_interface.sv
 
