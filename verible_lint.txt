@@ -29,4 +29,4 @@ parameter-name-style=localparam_style:CamelCase|ALL_CAPS
 # need to waive this to allow macro usage (e.g., examples/axil/testbench.sv)
 -module-port
 
-macro-name-style=macro_style:ALL_CAPS|lowercase|underscores|digits
+macro-name-style=macro_style:lowercase|underscores
