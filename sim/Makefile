@@ -1,6 +1,6 @@
 UVM_VERBOSITY = UVM_MEDIUM
 RTLFILE = ../rtl/alu.sv
-FLISTS= ../dv/alu.flist
+FLISTS= alu.flist
 TBTOP= ../tb/alu_tb_top.sv
 
 COVERAGE_DIR = ../coverage
