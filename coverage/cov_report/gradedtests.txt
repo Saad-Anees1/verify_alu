@@ -1,0 +1,8 @@
+# Tests that contribute to coverage in graded order
+../coverage/cov_merge/alu_add_1/test
+../coverage/cov_merge/alu_seq_1/test
+../coverage/cov_merge/alu_seq_5/test
+../coverage/cov_merge/alu_add_2/test
+../coverage/cov_merge/alu_seq_2/test
+../coverage/cov_merge/alu_sub_1/test
+../coverage/cov_merge/alu_sub_2/test

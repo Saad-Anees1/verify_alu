@@ -1,0 +1,410 @@
+Tests
+
+Total Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH GROUP  
+ 99.44 100.00 --     100.00 --     100.00  97.76 
+
+
+Total tests in report: 20
+-------------------------------------------------------------------------------
+Tests are in graded order
+
+Scores are accumulated (Total) and incremental (Incr) for each test.
+
+SCORE          LINE          COND          TOGGLE        FSM           BRANCH        GROUP                                              
+TOTAL   INCR   TOTAL  INCR   TOTAL  INCR   TOTAL  INCR   TOTAL  INCR   TOTAL  INCR   TOTAL  INCR   NAME                                 
+ 79.92   79.92  90.00  90.00 --     --      93.62  93.62 --     --      66.67  66.67  69.40  69.40 ../coverage/cov_merge/alu_add_1/test 
+ 97.01   17.09 100.00  10.00 --     --     100.00   6.38 --     --     100.00  33.33  88.06  18.66 ../coverage/cov_merge/alu_seq_1/test 
+ 98.32    1.31 100.00   0.00 --     --     100.00   0.00 --     --     100.00   0.00  93.28   5.22 ../coverage/cov_merge/alu_seq_5/test 
+ 98.69    0.37 100.00   0.00 --     --     100.00   0.00 --     --     100.00   0.00  94.78   1.49 ../coverage/cov_merge/alu_add_2/test 
+ 99.07    0.37 100.00   0.00 --     --     100.00   0.00 --     --     100.00   0.00  96.27   1.49 ../coverage/cov_merge/alu_seq_2/test 
+ 99.25    0.19 100.00   0.00 --     --     100.00   0.00 --     --     100.00   0.00  97.01   0.75 ../coverage/cov_merge/alu_sub_1/test 
+ 99.44    0.19 100.00   0.00 --     --     100.00   0.00 --     --     100.00   0.00  97.76   0.75 ../coverage/cov_merge/alu_sub_2/test 
+
+
+-------------------------------------------------------------------------------
+Tests that do not contribute to grading
+
+Name                                 
+../coverage/cov_merge/alu_add_3/test 
+../coverage/cov_merge/alu_add_4/test 
+../coverage/cov_merge/alu_add_5/test 
+../coverage/cov_merge/alu_nop_1/test 
+../coverage/cov_merge/alu_nop_2/test 
+../coverage/cov_merge/alu_nop_3/test 
+../coverage/cov_merge/alu_nop_4/test 
+../coverage/cov_merge/alu_nop_5/test 
+../coverage/cov_merge/alu_seq_3/test 
+../coverage/cov_merge/alu_seq_4/test 
+../coverage/cov_merge/alu_sub_3/test 
+../coverage/cov_merge/alu_sub_4/test 
+../coverage/cov_merge/alu_sub_5/test 
+
+
+-------------------------------------------------------------------------------
+
+
+Total test records in report: 20
+-------------------------------------------------------------------------------
+TEST NO TEST LOCATION                        TEST NAME STATUS STARTED                   FINISHED                  SIMULATION TIME 
+T1      ../coverage/cov_merge/alu_add_1/test                  Aug 21 04:58:11 AM PDT 24 Aug 21 04:58:12 AM PDT 24 3075000 ps      
+T2      ../coverage/cov_merge/alu_add_2/test                  Aug 21 04:58:12 AM PDT 24 Aug 21 04:58:13 AM PDT 24 3075000 ps      
+T3      ../coverage/cov_merge/alu_add_3/test                  Aug 21 04:58:13 AM PDT 24 Aug 21 04:58:13 AM PDT 24 3075000 ps      
+T10     ../coverage/cov_merge/alu_add_4/test                  Aug 21 04:58:13 AM PDT 24 Aug 21 04:58:14 AM PDT 24 3075000 ps      
+T11     ../coverage/cov_merge/alu_add_5/test                  Aug 21 04:58:14 AM PDT 24 Aug 21 04:58:14 AM PDT 24 3075000 ps      
+T7      ../coverage/cov_merge/alu_nop_1/test                  Aug 21 04:58:09 AM PDT 24 Aug 21 04:58:09 AM PDT 24 105000 ps       
+T8      ../coverage/cov_merge/alu_nop_2/test                  Aug 21 04:58:09 AM PDT 24 Aug 21 04:58:10 AM PDT 24 105000 ps       
+T9      ../coverage/cov_merge/alu_nop_3/test                  Aug 21 04:58:10 AM PDT 24 Aug 21 04:58:10 AM PDT 24 105000 ps       
+T18     ../coverage/cov_merge/alu_nop_4/test                  Aug 21 04:58:10 AM PDT 24 Aug 21 04:58:11 AM PDT 24 105000 ps       
+T19     ../coverage/cov_merge/alu_nop_5/test                  Aug 21 04:58:11 AM PDT 24 Aug 21 04:58:11 AM PDT 24 105000 ps       
+T4      ../coverage/cov_merge/alu_seq_1/test                  Aug 21 04:58:18 AM PDT 24 Aug 21 04:58:18 AM PDT 24 3075000 ps      
+T5      ../coverage/cov_merge/alu_seq_2/test                  Aug 21 04:58:18 AM PDT 24 Aug 21 04:58:19 AM PDT 24 3075000 ps      
+T6      ../coverage/cov_merge/alu_seq_3/test                  Aug 21 04:58:19 AM PDT 24 Aug 21 04:58:19 AM PDT 24 3075000 ps      
+T13     ../coverage/cov_merge/alu_seq_4/test                  Aug 21 04:58:20 AM PDT 24 Aug 21 04:58:20 AM PDT 24 3075000 ps      
+T14     ../coverage/cov_merge/alu_seq_5/test                  Aug 21 04:58:20 AM PDT 24 Aug 21 04:58:21 AM PDT 24 3075000 ps      
+T15     ../coverage/cov_merge/alu_sub_1/test                  Aug 21 04:58:15 AM PDT 24 Aug 21 04:58:15 AM PDT 24 3075000 ps      
+T17     ../coverage/cov_merge/alu_sub_2/test                  Aug 21 04:58:15 AM PDT 24 Aug 21 04:58:16 AM PDT 24 3075000 ps      
+T12     ../coverage/cov_merge/alu_sub_3/test                  Aug 21 04:58:16 AM PDT 24 Aug 21 04:58:16 AM PDT 24 3075000 ps      
+T20     ../coverage/cov_merge/alu_sub_4/test                  Aug 21 04:58:16 AM PDT 24 Aug 21 04:58:17 AM PDT 24 3075000 ps      
+T16     ../coverage/cov_merge/alu_sub_5/test                  Aug 21 04:58:17 AM PDT 24 Aug 21 04:58:17 AM PDT 24 3075000 ps      
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_add_1/test                                                                                                                   
+Short name      T1                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:11 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:12 AM PDT 24                                                                                                                              
+Peak memory     130632 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_add +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_seq_1/test                                                                                                                   
+Short name      T4                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:18 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:18 AM PDT 24                                                                                                                              
+Peak memory     130648 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_seq +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_seq_5/test                                                                                                                   
+Short name      T14                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:20 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:21 AM PDT 24                                                                                                                              
+Peak memory     130652 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_seq +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_add_2/test                                                                                                                   
+Short name      T2                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:12 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:13 AM PDT 24                                                                                                                              
+Peak memory     130632 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_add +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_seq_2/test                                                                                                                   
+Short name      T5                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:18 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:19 AM PDT 24                                                                                                                              
+Peak memory     130640 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_seq +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_sub_1/test                                                                                                                   
+Short name      T15                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:15 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:15 AM PDT 24                                                                                                                              
+Peak memory     130628 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_sub +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_sub_2/test                                                                                                                   
+Short name      T17                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:15 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:16 AM PDT 24                                                                                                                              
+Peak memory     130628 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_sub +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_add_3/test                                                                                                                   
+Short name      T3                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:13 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:13 AM PDT 24                                                                                                                              
+Peak memory     130628 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_add +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_add_4/test                                                                                                                   
+Short name      T10                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:13 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:14 AM PDT 24                                                                                                                              
+Peak memory     130632 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_add +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_add_5/test                                                                                                                   
+Short name      T11                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:14 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:14 AM PDT 24                                                                                                                              
+Peak memory     130632 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_add +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_nop_1/test                                                                                                                   
+Short name      T7                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 105000 ps                                                                                                                                              
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:09 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:09 AM PDT 24                                                                                                                              
+Peak memory     130528 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_nop +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_nop_2/test                                                                                                                   
+Short name      T8                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 105000 ps                                                                                                                                              
+CPU time        0.24 seconds                                                                                                                                           
+Started         Aug 21 04:58:09 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:10 AM PDT 24                                                                                                                              
+Peak memory     130528 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_nop +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_nop_3/test                                                                                                                   
+Short name      T9                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 105000 ps                                                                                                                                              
+CPU time        0.24 seconds                                                                                                                                           
+Started         Aug 21 04:58:10 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:10 AM PDT 24                                                                                                                              
+Peak memory     130528 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_nop +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_nop_4/test                                                                                                                   
+Short name      T18                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 105000 ps                                                                                                                                              
+CPU time        0.24 seconds                                                                                                                                           
+Started         Aug 21 04:58:10 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:11 AM PDT 24                                                                                                                              
+Peak memory     130524 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_nop +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_nop_5/test                                                                                                                   
+Short name      T19                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 105000 ps                                                                                                                                              
+CPU time        0.24 seconds                                                                                                                                           
+Started         Aug 21 04:58:11 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:11 AM PDT 24                                                                                                                              
+Peak memory     130528 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_nop +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_seq_3/test                                                                                                                   
+Short name      T6                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:19 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:19 AM PDT 24                                                                                                                              
+Peak memory     130668 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_seq +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_seq_4/test                                                                                                                   
+Short name      T13                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:20 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:20 AM PDT 24                                                                                                                              
+Peak memory     130648 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_seq +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_sub_3/test                                                                                                                   
+Short name      T12                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.26 seconds                                                                                                                                           
+Started         Aug 21 04:58:16 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:16 AM PDT 24                                                                                                                              
+Peak memory     130632 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_sub +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_sub_4/test                                                                                                                   
+Short name      T20                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:16 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:17 AM PDT 24                                                                                                                              
+Peak memory     130628 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_sub +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+
+
+-------------------------------------------------------------------------------
+Test location   ../coverage/cov_merge/alu_sub_5/test                                                                                                                   
+Short name      T16                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 3075000 ps                                                                                                                                             
+CPU time        0.25 seconds                                                                                                                                           
+Started         Aug 21 04:58:17 AM PDT 24                                                                                                                              
+Finished        Aug 21 04:58:17 AM PDT 24                                                                                                                              
+Peak memory     130628 kb                                                                                                                                              
+Host            proj168-0001                                                                                                                                           
+User            saadanees                                                                                                                                              
+Command         ./simv +UVM_TESTNAME=alu_test +UVM_TEST_SEQ=alu_sub +en_scb=1 +UVM_VERBOSITY=LOW -cm line+cond+fsm+tgl+branch -cm_hier alu_tb_top.alu -l alu.log +ntb_ 
+                random_seed_automatic -no_save                                                                                                                         
+Directory       /remote/usrhome/saadanees/muvm/ALU/sim                                                                                                                 
+

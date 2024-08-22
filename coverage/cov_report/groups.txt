@@ -1,0 +1,12 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+COVERED EXPECTED SCORE  WEIGHT 
+131     134       97.76 1      
+
+
+Total groups in report: 1
+-------------------------------------------------------------------------------
+COVERED EXPECTED SCORE  WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+131     134       97.76 1      100    1        0            64           64                    alu_pkg::alu_coverage::alu_covergroup 
+

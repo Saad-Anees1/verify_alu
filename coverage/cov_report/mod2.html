@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: alu</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_alu'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_alu')">alu</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt"><a href="mod2.html#Line" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod2.html#Toggle" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod2.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/remote/usrhome/saadanees/muvm/ALU/rtl/alu.sv')">/remote/usrhome/saadanees/muvm/ALU/rtl/alu.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod2.html#inst_tag_2"  onclick="showContent('inst_tag_2')">alu_tb_top.alu</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt"><a href="mod2.html#Line" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod2.html#Toggle" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod2.html#Branch" >100.00</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_alu'>
+<hr>
+<a name="inst_tag_2"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_2" >alu_tb_top.alu</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt"><a href="mod2.html#Line" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod2.html#Toggle" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod2.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod5.html#inst_tag_5" >alu_tb_top</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_alu'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod2.html" >alu</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">TOTAL</td><td></td><td>20</td><td>20</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>23</td><td>9</td><td>9</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>38</td><td>6</td><td>6</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>51</td><td>5</td><td>5</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+22                      always_ff @ (posedge clk, posedge rst) begin
+23         1/1            if (rst) begin
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+24         1/1              op_in_r     &lt;= operation_t' (0);
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+25         1/1              a_in_r      &lt;= '0;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+26         1/1              b_in_r      &lt;= '0;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+27         1/1              in_valid_r  &lt;= '0;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+28                        end else begin
+29         1/1              op_in_r    &lt;= op_in;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+30         1/1              a_in_r     &lt;= a_in;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+31         1/1              b_in_r     &lt;= b_in;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+32         1/1              in_valid_r &lt;= in_valid;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+33                        end
+34                      end
+35                      
+36                      // Compute the result
+37                      always_comb begin
+38         1/1            result = '0;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+39         1/1            if (in_valid_r) begin
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+40         1/1              case (op_in_r)
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+41         1/1                add: result = a_in_r + b_in_r;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+42         1/1                sub: result = a_in_r + (~b_in_r+1'b1);
+           Tests:       <span title = "../coverage/cov_merge/alu_seq_1/test">T4</span>&nbsp;<span title = "../coverage/cov_merge/alu_seq_2/test">T5</span>&nbsp;<span title = "../coverage/cov_merge/alu_seq_3/test">T6</span>&nbsp;
+43         1/1                mul: result = a_in_r * b_in_r;
+           Tests:       <span title = "../coverage/cov_merge/alu_seq_1/test">T4</span>&nbsp;<span title = "../coverage/cov_merge/alu_seq_2/test">T5</span>&nbsp;<span title = "../coverage/cov_merge/alu_seq_3/test">T6</span>&nbsp;
+44                            default: result = '0;
+45                          endcase
+46                        end
+                        MISSING_ELSE
+47                      end
+48                      
+49                      // Register outputs
+50                      always_ff @ (posedge clk, posedge rst) begin
+51         1/1            if (rst) begin
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+52         1/1              out       &lt;= '0;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+53         1/1              out_valid &lt;= '0;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+54                        end else begin
+55         1/1              out       &lt;= result;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+56         1/1              out_valid &lt;= in_valid_r;
+           Tests:       <span title = "../coverage/cov_merge/alu_add_1/test">T1</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>&nbsp;<span title = "../coverage/cov_merge/alu_add_3/test">T3</span>&nbsp;
+</pre>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod2.html" >alu</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s10">
+<td>Totals</td>
+<td class="rt">13</td>
+<td class="rt">13</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Total Bits</td>
+<td class="rt">94</td>
+<td class="rt">94</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">47</td>
+<td class="rt">47</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">47</td>
+<td class="rt">47</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s10">
+<td>Ports</td>
+<td class="rt">8</td>
+<td class="rt">8</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Port Bits</td>
+<td class="rt">50</td>
+<td class="rt">50</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">25</td>
+<td class="rt">25</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">25</td>
+<td class="rt">25</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s10">
+<td>Signals</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Signal Bits</td>
+<td class="rt">44</td>
+<td class="rt">44</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">22</td>
+<td class="rt">22</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">22</td>
+<td class="rt">22</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>INPUT</td>
+</tr><tr>
+<td>rst</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>INPUT</td>
+</tr><tr>
+<td>op_in[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_seq_1/test">T4</span>,<span title = "../coverage/cov_merge/alu_seq_2/test">T5</span>,<span title = "../coverage/cov_merge/alu_seq_3/test">T6</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>INPUT</td>
+</tr><tr>
+<td>a_in[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>INPUT</td>
+</tr><tr>
+<td>b_in[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>INPUT</td>
+</tr><tr>
+<td>in_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>INPUT</td>
+</tr><tr>
+<td>out[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>out_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td>OUTPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td></tr><tr>
+<td>op_in_r[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_seq_1/test">T4</span>,<span title = "../coverage/cov_merge/alu_seq_2/test">T5</span>,<span title = "../coverage/cov_merge/alu_seq_3/test">T6</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr>
+<td>a_in_r[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr>
+<td>b_in_r[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr>
+<td>in_valid_r</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr>
+<td>result[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl"><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod2.html" >alu</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s10">
+<td>Branches</td>
+<td></td>
+<td class="rt">9</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">23</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">39</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">51</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+23           if (rst) begin
+             <font color = "green">-1-</font>  
+24             op_in_r     <= operation_t' (0);
+           <font color = "green">    ==></font>
+25             a_in_r      <= '0;
+26             b_in_r      <= '0;
+27             in_valid_r  <= '0;
+28           end else begin
+29             op_in_r    <= op_in;
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+39           if (in_valid_r) begin
+             <font color = "green">-1-</font>  
+40             case (op_in_r)
+               <font color = "green">-2-</font>  
+41               add: result = a_in_r + b_in_r;
+           <font color = "green">      ==></font>
+42               sub: result = a_in_r + (~b_in_r+1'b1);
+           <font color = "green">      ==></font>
+43               mul: result = a_in_r * b_in_r;
+           <font color = "green">      ==></font>
+44               default: result = '0;
+           <font color = "green">      ==></font>
+45             endcase
+46           end
+             MISSING_ELSE
+           <font color = "green">  ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>add </td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>sub </td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_seq_1/test">T4</span>,<span title = "../coverage/cov_merge/alu_seq_2/test">T5</span>,<span title = "../coverage/cov_merge/alu_seq_3/test">T6</span></td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>mul </td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_seq_1/test">T4</span>,<span title = "../coverage/cov_merge/alu_seq_2/test">T5</span>,<span title = "../coverage/cov_merge/alu_seq_3/test">T6</span></td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>default</td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_nop_1/test">T7</span>,<span title = "../coverage/cov_merge/alu_nop_2/test">T8</span>,<span title = "../coverage/cov_merge/alu_nop_3/test">T9</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+51           if (rst) begin
+             <font color = "green">-1-</font>  
+52             out       <= '0;
+           <font color = "green">    ==></font>
+53             out_valid <= '0;
+54           end else begin
+55             out       <= result;
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td><span title = "../coverage/cov_merge/alu_add_1/test">T1</span>,<span title = "../coverage/cov_merge/alu_add_2/test">T2</span>,<span title = "../coverage/cov_merge/alu_add_3/test">T3</span></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_2">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_alu">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

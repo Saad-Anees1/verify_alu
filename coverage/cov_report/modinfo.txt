@@ -1,0 +1,286 @@
+===============================================================================
+Module : alu
+===============================================================================
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 --     100.00 --     100.00 
+
+Source File(s) : 
+
+/remote/usrhome/saadanees/muvm/ALU/rtl/alu.sv
+
+Module self-instances :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME           
+100.00 100.00 --     100.00 --     100.00 alu_tb_top.alu 
+
+
+
+-------------------------------------------------------------------------------
+Line Coverage for Module : alu
+
+             Line No.   Total   Covered  Percent
+TOTAL                       20       20   100.00
+ALWAYS             23        9        9   100.00
+ALWAYS             38        6        6   100.00
+ALWAYS             51        5        5   100.00
+
+22                      always_ff @ (posedge clk, posedge rst) begin
+23         1/1            if (rst) begin
+           Tests:       T1 T2 T3 
+24         1/1              op_in_r     <= operation_t' (0);
+           Tests:       T1 T2 T3 
+25         1/1              a_in_r      <= '0;
+           Tests:       T1 T2 T3 
+26         1/1              b_in_r      <= '0;
+           Tests:       T1 T2 T3 
+27         1/1              in_valid_r  <= '0;
+           Tests:       T1 T2 T3 
+28                        end else begin
+29         1/1              op_in_r    <= op_in;
+           Tests:       T1 T2 T3 
+30         1/1              a_in_r     <= a_in;
+           Tests:       T1 T2 T3 
+31         1/1              b_in_r     <= b_in;
+           Tests:       T1 T2 T3 
+32         1/1              in_valid_r <= in_valid;
+           Tests:       T1 T2 T3 
+33                        end
+34                      end
+35                      
+36                      // Compute the result
+37                      always_comb begin
+38         1/1            result = '0;
+           Tests:       T1 T2 T3 
+39         1/1            if (in_valid_r) begin
+           Tests:       T1 T2 T3 
+40         1/1              case (op_in_r)
+           Tests:       T1 T2 T3 
+41         1/1                add: result = a_in_r + b_in_r;
+           Tests:       T1 T2 T3 
+42         1/1                sub: result = a_in_r + (~b_in_r+1'b1);
+           Tests:       T4 T5 T6 
+43         1/1                mul: result = a_in_r * b_in_r;
+           Tests:       T4 T5 T6 
+44                            default: result = '0;
+45                          endcase
+46                        end
+                        MISSING_ELSE
+47                      end
+48                      
+49                      // Register outputs
+50                      always_ff @ (posedge clk, posedge rst) begin
+51         1/1            if (rst) begin
+           Tests:       T1 T2 T3 
+52         1/1              out       <= '0;
+           Tests:       T1 T2 T3 
+53         1/1              out_valid <= '0;
+           Tests:       T1 T2 T3 
+54                        end else begin
+55         1/1              out       <= result;
+           Tests:       T1 T2 T3 
+56         1/1              out_valid <= in_valid_r;
+           Tests:       T1 T2 T3 
+
+-------------------------------------------------------------------------------
+Toggle Coverage for Module : alu
+                Total Covered Percent 
+Totals          13    13      100.00  
+Total Bits      94    94      100.00  
+Total Bits 0->1 47    47      100.00  
+Total Bits 1->0 47    47      100.00  
+
+                            
+Ports          8  8  100.00 
+Port Bits      50 50 100.00 
+Port Bits 0->1 25 25 100.00 
+Port Bits 1->0 25 25 100.00 
+
+                              
+Signals          5  5  100.00 
+Signal Bits      44 44 100.00 
+Signal Bits 0->1 22 22 100.00 
+Signal Bits 1->0 22 22 100.00 
+
+Port Details
+           Toggle Toggle 1->0 Tests    Toggle 0->1 Tests    Direction 
+clk        Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 INPUT     
+rst        Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 INPUT     
+op_in[1:0] Yes    Yes         T4,T5,T6 Yes         T1,T2,T3 INPUT     
+a_in[5:0]  Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 INPUT     
+b_in[5:0]  Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 INPUT     
+in_valid   Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 INPUT     
+out[6:0]   Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 OUTPUT    
+out_valid  Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 OUTPUT    
+
+Signal Details
+             Toggle Toggle 1->0 Tests    Toggle 0->1 Tests    
+op_in_r[1:0] Yes    Yes         T4,T5,T6 Yes         T1,T2,T3 
+a_in_r[5:0]  Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 
+b_in_r[5:0]  Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 
+in_valid_r   Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 
+result[6:0]  Yes    Yes         T1,T2,T3 Yes         T1,T2,T3 
+
+
+-------------------------------------------------------------------------------
+Branch Coverage for Module : alu
+         Line No. Total Covered Percent 
+Branches          9     9       100.00  
+IF       23       2     2       100.00  
+IF       39       5     5       100.00  
+IF       51       2     2       100.00  
+
+
+23           if (rst) begin
+             -1-  
+24             op_in_r     <= operation_t' (0);
+               ==>
+25             a_in_r      <= '0;
+26             b_in_r      <= '0;
+27             in_valid_r  <= '0;
+28           end else begin
+29             op_in_r    <= op_in;
+               ==>
+
+Branches:
+
+-1- Status  Tests    
+1   Covered T1,T2,T3 
+0   Covered T1,T2,T3 
+
+
+39           if (in_valid_r) begin
+             -1-  
+40             case (op_in_r)
+               -2-  
+41               add: result = a_in_r + b_in_r;
+                 ==>
+42               sub: result = a_in_r + (~b_in_r+1'b1);
+                 ==>
+43               mul: result = a_in_r * b_in_r;
+                 ==>
+44               default: result = '0;
+                 ==>
+45             endcase
+46           end
+             MISSING_ELSE
+             ==>
+
+Branches:
+
+-1- -2-     Status  Tests    
+1   add     Covered T1,T2,T3 
+1   sub     Covered T4,T5,T6 
+1   mul     Covered T4,T5,T6 
+1   default Covered T7,T8,T9 
+0   -       Covered T1,T2,T3 
+
+
+51           if (rst) begin
+             -1-  
+52             out       <= '0;
+               ==>
+53             out_valid <= '0;
+54           end else begin
+55             out       <= result;
+               ==>
+
+Branches:
+
+-1- Status  Tests    
+1   Covered T1,T2,T3 
+0   Covered T1,T2,T3 
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Module Instance : alu_tb_top.alu
+===============================================================================
+
+Instance :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 --     100.00 --     100.00 
+
+
+Instance's subtree :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 --     100.00 --     100.00 
+
+
+Module : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 --     100.00 --     100.00 alu  
+
+
+Parent : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME       
+--     --     --     --     --     --     alu_tb_top 
+
+
+Subtrees :
+
+
+no children
+----------------
+
+
+-------------------------------------------------------------------------------
+Since this is the module's only instance, the coverage report is the same as for the module.
+===============================================================================
+Module : alu_tb_top
+===============================================================================
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+--     --     --     --     --     --     
+
+Source File(s) : 
+
+/remote/usrhome/saadanees/muvm/ALU/tb/alu_tb_top.sv
+
+Module self-instances :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME       
+--     --     --     --     --     --     alu_tb_top 
+
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Module Instance : alu_tb_top
+===============================================================================
+
+Instance :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+--     --     --     --     --     --     
+
+
+Instance's subtree :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+100.00 100.00 --     100.00 --     100.00 
+
+
+Module : 
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME       
+--     --     --     --     --     --     alu_tb_top 
+
+
+Parent : 
+
+none
+----------------
+
+
+Subtrees :
+
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME 
+100.00 100.00 --     100.00 --     100.00 alu  
+
+
+
+-------------------------------------------------------------------------------
+Since this is the module's only instance, the coverage report is the same as for the module.
