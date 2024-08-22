@@ -55,9 +55,9 @@ class alu_drv extends uvm_driver #(alu_seq_item);
     forever begin
       seq_item_port.try_next_item(item);
       if (item == null) begin
-	alu_intf_i.drv_cb.in_valid <= 1'b0;
-	seq_item_port.get_next_item(item);
-	@(alu_intf_i.drv_cb);
+        alu_intf_i.drv_cb.in_valid <= 1'b0;
+        seq_item_port.get_next_item(item);
+        @(alu_intf_i.drv_cb);
       end
       /*$cast(rsp_item, item.clone());
       rsp_item.set_id_info(item);*/

@@ -1,4 +1,4 @@
-import alu_types_pkg::*;
+import alu_types::*;
 module alu #( parameter WIDTH = 6 ) (
   input clk,
   input rst,

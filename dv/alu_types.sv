@@ -1,4 +1,4 @@
-package alu_types_pkg;
+package alu_types;
   localparam DATA_WIDTH = 6;
 
   typedef bit [DATA_WIDTH-1:0] data_t;

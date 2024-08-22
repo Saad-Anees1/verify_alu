@@ -1,7 +1,7 @@
 interface alu_interface #(parameter WIDTH = 6)(input logic clk, input logic rst);
   //---------------------------------------------------------------------
   //Group: Signals
-  import alu_types_pkg::*;
+  import alu_types::*;
 
   operation_t 	    op_in;
   logic [WIDTH-1:0] a_in;

@@ -1,6 +1,6 @@
 package alu_pkg;
   import uvm_pkg::*;
-  import alu_types_pkg::*;
+  import alu_types::*;
 
   `include "uvm_macros.svh"
   `include "dv_macros.svh"

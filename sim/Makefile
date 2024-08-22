@@ -1,9 +1,9 @@
-VM_VERBOSITY = UVM_MEDIUM
-RTLFILE = /remote/usrhome/saadanees/muvm/ALU/rtl/alu.sv
-FLISTS= /remote/usrhome/saadanees/muvm/ALU/dv/alu.flist
-TBTOP= /remote/usrhome/saadanees/muvm/ALU/tb/alu_tb_top.sv
+UVM_VERBOSITY = UVM_MEDIUM
+RTLFILE = ../rtl/alu.sv
+FLISTS= ../dv/alu.flist
+TBTOP= ../tb/alu_tb_top.sv
 
-COVERAGE_DIR = coverage
+COVERAGE_DIR = ../coverage
 
 $(COVERAGE_DIR):
 	mkdir -p $(COVERAGE_DIR)

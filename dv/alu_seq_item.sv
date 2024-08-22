@@ -11,7 +11,7 @@ class alu_seq_item extends uvm_sequence_item;
     solve a_in before b_in;
   }
 
-  constraint op_limit {
+  constraint op_limit_c {
     op_in dist {add :=20, sub:=20, mul:=50, nop:=10};
   }
 
@@ -27,7 +27,8 @@ class alu_seq_item extends uvm_sequence_item;
   endfunction
 
   virtual function string convert2string();
-    convert2string = {convert2string, $sformatf("operation = %s, a_in = %0d, b_in =%0d \n", op_in.name(), a_in, b_in)};
+    convert2string = {convert2string, $sformatf("operation = %s, a_in = %0d, b_in =%0d \n", \
+                      op_in.name(), a_in, b_in)};
   endfunction
 
 endclass
