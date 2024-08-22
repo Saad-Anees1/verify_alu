@@ -8,7 +8,6 @@ package alu_pkg;
   `include "alu_seq_item.sv"
   `include "alu_env_cfg.sv"
   `include "alu_seq.sv"
-  `include "div0_seq_c.sv"
   `include "alu_add.sv"
   `include "alu_sub.sv"
   `include "alu_nop.sv"
