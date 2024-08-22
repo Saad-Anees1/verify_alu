@@ -4,6 +4,6 @@ class alu_env_cfg extends uvm_object;
   `uvm_object_new
 
   bit en_scb = 1'b1;
-  virtual interface alu_interface vif;
+  virtual interface alu_interface_if vif;
   event ev;
 endclass

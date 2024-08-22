@@ -1,0 +1,32 @@
+name: PR-Lint
+on:
+  pull_request:
+  push:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/zeroasiccorp/sbtest:latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Lint with Verible
+        run: |
+          find . \( \
+            -name "*.v" \
+            -or -name "*.sv" \
+            -or -name "*.vh" \
+            -or -name "*.svh" \
+          \) > files.txt
+          cat files.txt
+          verible-verilog-lint \
+            --rules_config verible_lint.txt \
+            `cat files.txt`
+        env:
+          # To report GitHub Actions status checks
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: false

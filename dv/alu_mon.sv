@@ -2,7 +2,7 @@ class alu_mon extends uvm_monitor;
   `uvm_component_utils(alu_mon)
 
   alu_env_cfg cfg;
-  virtual interface alu_interface alu_intf_i;
+  virtual interface alu_interface_if alu_intf_i;
   uvm_analysis_port#(alu_seq_item) mon_port;
 
   `uvm_component_new

@@ -29,7 +29,8 @@ class alu_coverage extends uvm_subscriber#(alu_seq_item);
 
   function void report_phase(uvm_phase phase);
     super.report_phase(phase);
-    `uvm_info(get_type_name(), $sformatf("Coverage of ALU = %0f", alu_covergroup.get_coverage()), UVM_LOW);
+    `uvm_info(get_type_name(), $sformatf("Coverage of ALU = %0f", \
+              alu_covergroup.get_coverage()), UVM_LOW);
   endfunction
 
 endclass

@@ -19,7 +19,7 @@ class alu_test extends uvm_test;
     env = alu_env::type_id::create("env", this);
     cfg = alu_env_cfg::type_id::create("cfg", this);
 
-    if(!uvm_config_db#(virtual alu_interface)::get(this, "", "vif", cfg.vif))
+    if(!uvm_config_db#(virtual alu_interface_if)::get(this, "", "vif", cfg.vif))
       `uvm_fatal(get_type_name(),"Didn't get handle to virtual interface alu_intf_i")
 
     // Retrieve the sequence name from the command line

@@ -1,7 +1,7 @@
 class alu_drv extends uvm_driver #(alu_seq_item);
   `uvm_component_utils(alu_drv)
 
-  virtual interface alu_interface alu_intf_i;
+  virtual interface alu_interface_if alu_intf_i;
   alu_seq_item item;
   alu_seq_item rsp_item;
   alu_env_cfg cfg;

@@ -19,7 +19,7 @@ module alu_tb_top;
 
   always #5 clk = ~clk;
 
-  alu_interface #(.WIDTH(WIDTH)) alu_intf_i(.clk(clk), .rst(rst));
+  alu_interface_if #(.WIDTH(WIDTH)) alu_intf_i(.clk(clk), .rst(rst));
 
   alu alu (
       // Outputs
@@ -35,7 +35,7 @@ module alu_tb_top;
   );
 
   initial begin
-    uvm_config_db#(virtual alu_interface)::set(null, "*", "vif",alu_intf_i);
+    uvm_config_db#(virtual alu_interface_if)::set(null, "*", "vif",alu_intf_i);
   end
 
   initial begin

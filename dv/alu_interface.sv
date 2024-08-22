@@ -1,9 +1,9 @@
-interface alu_interface #(parameter WIDTH = 6)(input logic clk, input logic rst);
+interface alu_interface_if #(parameter WIDTH = 6)(input logic clk, input logic rst);
   //---------------------------------------------------------------------
   //Group: Signals
   import alu_types::*;
 
-  operation_t 	    op_in;
+  operation_t       op_in;
   logic [WIDTH-1:0] a_in;
   logic [WIDTH-1:0] b_in;
   logic             in_valid;
