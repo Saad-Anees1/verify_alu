@@ -4,6 +4,6 @@ class div0_seq_c extends alu_seq;
   `uvm_object_new
 
   task body();
-    $display("calling div_seq_c class");
+    $display("calling div_seq_c seq....");
   endtask
 endclass
