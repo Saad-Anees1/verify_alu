@@ -3,7 +3,7 @@
 
 # allow localparams to be written in all caps with underscores,
 # in addition to using camelcase
-parameter-name-style=localparam_style:CamelCase
+parameter-name-style=localparam_style:CamelCase|ALL_CAPS
 
 # don't require generate blocks to have a label
 -generate-label
