@@ -1,5 +1,0 @@
-# Tests that cover objects not covered by any other test, in graded order.
-../coverage/cov_merge/alu_add_2/test
-../coverage/cov_merge/alu_seq_2/test
-../coverage/cov_merge/alu_sub_1/test
-../coverage/cov_merge/alu_sub_2/test
