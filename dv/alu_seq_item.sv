@@ -27,7 +27,7 @@ class alu_seq_item extends uvm_sequence_item;
   endfunction
 
   virtual function string convert2string();
-    convert2string = {convert2string, $sformatf("operation = %s, a_in = %0d, b_in =%0d \n", \
+    convert2string = {convert2string, $sformatf("operation = %s, a_in = %0d, b_in =%0d \n",
                       op_in.name(), a_in, b_in)};
   endfunction
 
