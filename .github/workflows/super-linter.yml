@@ -2,7 +2,9 @@ name: PR-Lint
 on:
   pull_request:
   push:
-
+    branches:
+      - master
+    
 jobs:
   Build:
     runs-on: ubuntu-latest
