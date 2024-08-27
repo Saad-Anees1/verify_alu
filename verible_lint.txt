@@ -30,3 +30,4 @@ parameter-name-style=localparam_style:CamelCase|ALL_CAPS
 -module-port
 
 -macro-name-style
+-forbid-line-continuations
