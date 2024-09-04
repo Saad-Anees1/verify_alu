@@ -14,5 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Compile script with VCS
-        run: | 
+        run: |
+          cd verify_alu/sim
           make comp
