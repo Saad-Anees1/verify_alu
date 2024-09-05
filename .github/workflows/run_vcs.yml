@@ -1,4 +1,4 @@
-name: Compile Script
+name: RUN VCS
  
 on:
   pull_request:
@@ -15,4 +15,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile script with VCS
         run: |
-          echo Hello, World! 
+          cd verify_alu/sim
+          make comp
