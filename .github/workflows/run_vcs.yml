@@ -1,0 +1,19 @@
+name: RUN VCS
+ 
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+ 
+jobs:
+  build:
+    runs-on: self-hosted
+ 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Compile script with VCS
+        run: |
+          cd sim
+          make comp
