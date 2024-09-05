@@ -48,7 +48,7 @@ class alu_drv extends uvm_driver #(alu_seq_item);
     alu_intf_i.drv_cb.a_in <= '0;
     alu_intf_i.drv_cb.b_in <= 0;
     alu_intf_i.drv_cb.in_valid <= '0;
-    alu_intf_i.drv_cb.op_in <= '0;
+    alu_intf_i.drv_cb.op_in <= operation_t'(nop);
   endtask
 
   virtual task drive_data();
