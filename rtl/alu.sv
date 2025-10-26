@@ -1,5 +1,5 @@
 import alu_types::*;
-module alu #( parameter WIDTH = 6 ) (
+module alu #(parameter WIDTH = 6) (
   input clk,
   input rst,
 
