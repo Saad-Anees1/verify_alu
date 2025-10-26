@@ -33,7 +33,7 @@ always_ff @ (posedge clk, posedge rst) begin
   end
 end
 
-// Compute the result
+// Compute the Results
 always_comb begin
   result = '0;
   if (in_valid_r) begin
